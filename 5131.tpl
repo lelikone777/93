@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>1</title>
+    <title>2</title>
     <style type="text/css">
         html {
             -webkit-box-sizing: border-box;
@@ -85,7 +85,7 @@
             justify-content: space-between;
             position: absolute;
             height: 78%;
-            top: 15vh;
+            top: 10vh;
         }
 
         .banner {
@@ -125,7 +125,7 @@
             margin: 5vh auto;
             padding: 0 10px;
             font-weight: 400;
-            font-size: 24px;
+            font-size: 25px;
             line-height: 1.4em;
             text-align: center;
             color: #FF7900;
@@ -147,7 +147,7 @@
             text-decoration: underline;
         }
 
-        @media (max-height: 630px)  {
+        @media (max-height: 680px)  {
             .banner {
                 width: 30%;
             }
@@ -172,7 +172,7 @@
             }
         }
 
-        @media (max-height: 350px)  {
+        @media (max-height: 370px)  {
             .box {
                 top: 5vh;
             }
@@ -231,7 +231,7 @@
             </div>
 
 
-                <div class="orange">Faceți clic mai jos pentru a obține acces la conținut.</div>
+                <div class="orange">Pentru a obține acces la serviciu, faceți clic pe butonul de mai jos pentru a trimite un cod SMS unic.</div>
 
                 <div class="price">
                     Cost total serviciu: 3,62 EUR cu TVA

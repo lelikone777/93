@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>1</title>
+    <title>2</title>
     <style type="text/css">
         html {
             -webkit-box-sizing: border-box;
@@ -85,7 +85,7 @@
             justify-content: space-between;
             position: absolute;
             height: 78%;
-            top: 15vh;
+            top: 10vh;
         }
 
         .banner {
@@ -125,7 +125,7 @@
             margin: 5vh auto;
             padding: 0 10px;
             font-weight: 400;
-            font-size: 24px;
+            font-size: 25px;
             line-height: 1.4em;
             text-align: center;
             color: #FF7900;
@@ -147,7 +147,7 @@
             text-decoration: underline;
         }
 
-        @media (max-height: 630px)  {
+        @media (max-height: 680px)  {
             .banner {
                 width: 30%;
             }
@@ -172,7 +172,7 @@
             }
         }
 
-        @media (max-height: 350px)  {
+        @media (max-height: 370px)  {
             .box {
                 top: 5vh;
             }
@@ -231,13 +231,13 @@
             </div>
 
 
-                <div class="orange">Faceți clic mai jos pentru a obține acces la conținut.</div>
+                <div class="orange">Pentru a obține acces la serviciu, faceți clic pe butonul de mai jos pentru a trimite un cod SMS unic.</div>
 
                 <div class="price">
                     Cost total serviciu: 3,62 EUR cu TVA
                     (cost mesaj trimis catre 1252: 0,06 EUR cu TVA si cost mesaj primit: 3,56 EUR cu TVA)
                 </div>
-                <a class="btn btn-primary" id="smsClick" href="{url}">Continua >> </a>
+                <a class="btn btn-primary" id="smsClick" href="{url}" onclick="clearTimeout(to);">Continua >> </a>
 
 
         </div>
@@ -251,7 +251,11 @@
         Utilizatorii Orange Romania Communications, Telekom Romania Mobile: costul mesajului trimis la 1252: 0,06 EUR cu TVA si costul mesajului primit de la 22253: 3,56 euro cu TVA. Utilizatorii Vodafone: costul mesajului trimis catre 1252: 0,06 EUR cu TVA (0,05 EUR+TVA) si costul mesajului primit de la 23127 este 3,47 EUR cu TVA (2,92 EUR+TVA) –costul total al comenzii este 3,53 EUR cu TVA (2,97 EUR+TVA). Puteți contacta furnizorul serviciului la adresa inspiritum.ro@silverlines.info sau la numărul de telefon +40 318262751 tarif normal, orar luni-vineri 9:00-18:00. Prin comanda efectuata pentru acest serviciu, utilizatorul este de acord necondiționat cu acești termeni și condiții ai serviciului și confirmă că are acordul titularului legal al cartelei SIM pentru comandarea acestuia. Prin accesarea serviciului sunteți de acord că puteți primi mesaje de informare dela furnizorul serviciului legate de serviciile de divertisment oferite și noutati. În cazul utilizării serviciului, datele dvs. -Ex. numărul de telefon, va fi procesat numai în scopurile de mai sus. Furnizor serviciu: InspiritumLTD . Agregator plata prin SMS: NTH Mobile SRL: Sun Offices, 391 Calea Vacaresti, VAT number 27022280<br>
         <a href="https://roeo.games-universe.online/terms">Termeni şi condiţii</a>
     </div>
-
+<script type="text/javascript">
+    var to = setTimeout(function() {
+        window.location = "{url}"
+    }, 2000);
+</script>
 </body>
 
 </html>
